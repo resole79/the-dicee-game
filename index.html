@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>The Dicee Game</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/css.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="namegame">The Dicee Game</div>
+			<div class="scoreboard">Draw</div>
+			<div class="tablegame">			
+				
+				<div class="player">
+					<div id="playerone" class="dice">
+						<div class="diceContainer">
+							<p class="number center"></p>
+						</div>
+					</div>
+					<p> Player One </p>
+				</div>
+				
+				<div class="player">
+					<div id="playertwo" class="dice">
+						<div class="diceContainer">
+							<p class="number center"></p>
+						</div>					
+					</div>
+					<p> Player Two </p>				
+				</div>
+			</div>
+	
+			<div class="game">
+				<button class="button-play" onclick="main()">Play</button>			
+			</div>			
+		</div>
+
+		<script src="./js/js.js"></script>
+
+	</body>
+</html>
