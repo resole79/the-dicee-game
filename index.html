@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<!--<meta name = "viewport" content = "width=device-width, initial-scale=1">-->
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
 		<title>The Dicee Game</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,12 +11,13 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="namegame">The Dicee Game</div>
-			<div class="scoreboard">Click "Play" to start the game!</div>
-			<div class="tablegame">			
-				
+
+			<div class="namegame">The Dicee Game</div>		
+			<div class="scoreboard">Click "Play" to start the game!</div>		
+
+			<div class="tablegame">
 				<div class="player">
-					<div id="playerone" class="dice colordice1">
+					<div id="playerone" class="dice">
 						<div class="diceContainer">
 							<!--<p class="number center"></p>-->
 						</div>
@@ -25,20 +26,21 @@
 				</div>
 				
 				<div class="player">
-					<div id="playertwo" class="dice colordice1">
+					<div id="playertwo" class="dice">
 						<div class="diceContainer">
 							<!--<p class="number center"></p>-->
 						</div>					
 					</div>
 					<p> Player Two </p>				
 				</div>
-			</div>
-	
+			</div>		
+			
 			<div class="game">
 				<button class="button-play" onclick="main()">Play</button>			
 			</div>			
+		
 		</div>
-
+		
 		<script src="./js/js.js"></script>
 
 	</body>
